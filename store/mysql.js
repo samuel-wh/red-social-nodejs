@@ -5,7 +5,7 @@ const dbconf = {
   user: config.mysql.user,
   password: config.mysql.password,
   database: config.mysql.database,
-  port: "3307"
+  port: config.mysql.port
 };
 let connection;
 function handleCon() {

@@ -6,5 +6,6 @@ module.exports = {
     user: process.env.MYSQL_USER || "root",
     password: process.env.MYSQL_PASS || "root",
     database: process.env.MYSQL_DB || "redSocial",
+    port: process.env.MYSQL_PORT || "3307",
   },
 };
