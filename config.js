@@ -8,4 +8,7 @@ module.exports = {
     database: process.env.MYSQL_DB || "redSocial",
     port: process.env.MYSQL_PORT || "3307",
   },
+  mysqlService: {
+    port: process.env.MYSQL_SRV_PORT || 3001,
+  }
 };
